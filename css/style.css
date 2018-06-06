@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+form {
+    padding: 20px;
+    color: white;
+    background-color: #113310;
+    width: 400px;
+}
+
+form label {
+    display: block;
+}
+
+form input, form textarea, form select, form label[for="message"] {
+    display: block;
+    background-color: forestgreen;
+    margin-bottom: 20px;
+    color: white;
+    width: 350px;
+    height: 20px;
+    border: none;
+    border: 1px;    
+}
+
+form label[for="male"], form label[for="female"], form label[for="agreement"] {
+    display: inline-block;
+}
+
+form input[name='gender'], form input[type='checkbox'], input#agreement {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+input#agreement {
+    margin: 20px 0;
+}
+
+form input[type="submit"] {
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: #72d311;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: 800;  
+}
+
+form input:focus, form textarea:focus, form select:focus {
+    background-color: #f47d07;
+    border: 1px solid #fff;
+}
+
+textarea#message {
+    color: white;
+}

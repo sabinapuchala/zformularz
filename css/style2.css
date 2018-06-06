@@ -1,0 +1,32 @@
+body {
+    margin: 20px;
+}
+
+#mainheader h1 {
+    font-size: 20px;
+}
+
+#mainheader h2 {
+    font-size: 15px;
+    color: darkgrey;
+    font-style: italic;
+}
+
+#customerinfo label {
+    margin-left: 40px;
+}
+
+#customerinfo input {
+    margin: 8px;
+    width: 300px;
+}
+
+#books input[list="bookslist"] {
+    margin: 8px;
+    width: 300px;
+}
+
+#books input[id="quantity"] {
+    margin: 8px;
+    width: 150px;
+}
