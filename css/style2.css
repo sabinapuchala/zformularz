@@ -21,7 +21,7 @@ body {
     width: 300px;
 }
 
-#books input[list="bookslist"] {
+#books input[list="booklist"] {
     margin: 8px;
     width: 300px;
 }
