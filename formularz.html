@@ -14,26 +14,26 @@
     
     <form action=https://formspree.io/sabinapuchala@gmail.com method="post">
         
-<!--        <fieldset id="customerinfo">-->
-<!--        <legend>Customer Info</legend>-->
+        <fieldset id="customerinfo">
+           
+        <legend>Customer Info</legend>
             <label for="name">Name:</label>
             <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required>
-<!--
             <br>
             <label for="telephone">Telephone:</label>
-            <input type="tel" id="telephone" placeholder="Pattern: 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <input type="tel" name="telephone" id="telephone" placeholder="Pattern: 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
             <br>
             <label for="email">Email address:</label>
-            <input type="email" id="email" placeholder="Enter your email address" required>
--->
-<!--        </fieldset>-->
-<!--
+            <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+            
+        </fieldset>
+        
         
         <fieldset id="books">
         
         <legend>Books</legend>
             <input list="booklist">
-            <datalist id="booklist">
+            <datalist name="booklist" id="booklist">
 	            <option value="Book 1">
 	            <option value="Book 2">
            	    <option value="Book 3">
@@ -41,9 +41,9 @@
                 <option value="Book 5">
             </datalist>
             <label for="quantity">Quantity (Maximum 5):</label>
-            <input type="number" id="quantity" min="1" max="5">
+            <input type="number" name="quantity" id="quantity" min="1" max="5">
+            
         </fieldset>
--->
         
         <input type="submit" value="send">
     </form>        
