@@ -28,7 +28,8 @@
         
         <fieldset id="books">
         <legend>Books</legend>
-            <input list="bookslist">
+            <label for="booklist"></label>
+            <input list="bookslist" id="booklist">
             <datalist id="bookslist">
 	            <option value="Book 1">
 	            <option value="Book 2">
@@ -36,8 +37,6 @@
            	    <option value="Book 4">
                 <option value="Book 5">
             </datalist>
-            <input type="text" pattern="^\d{2}-\d{3}$">
-            <input type="text" pattern="^((\d{3}[- ]\d{3}[- ]\d{2}[- ]\d{2})|(\d{3}[- ]\d{2}[- ]\d{2}[- ]\d{3}))$">
             <label for="quantity">Quantity (Maximum 5):</label>
             <input type="number" id="quantity" min="1" max="5">
         </fieldset>
